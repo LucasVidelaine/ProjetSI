@@ -7,3 +7,6 @@ basique (rectangle, ellipse, ligne, texte…). Le moniteur permet de les install
 de les animer.
 
 Le développement se fait en Java sous Eclipse.
+
+***
+
