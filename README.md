@@ -10,3 +10,17 @@ Le développement se fait en Java sous Eclipse.
 
 ***
 
+Le projet se constitue d’un ensemble d’exercices de difficulté croissante. Nous avons un total de 5 exercices déclinés, pour certain, en sous exercice :
+
+* Exercice 1
+* Exercice 2
+  * Exercice 2.1
+  * Exercice 2.2
+* Exercice 3
+* Exercice 4
+  * Exercice 4.1
+  * Exercice 4.2
+  * Exercice 4.3
+  * Exercice 4.4
+  
+***
