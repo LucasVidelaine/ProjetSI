@@ -130,12 +130,13 @@ Lorsque nous ajoutons un element, celui-ci possède une référence liée à des
 La commande à exécuter dans cet exercice était la suivante :
 
 ```
-(space sleep 1000)
-(robi setColor yellow)
-(space sleep 500)
-(space setColor red)
-(space sleep 500)
-(robi translate 30 30)
+(space add robi (rect.class new)) 
+(robi setcolor yellow)
+(space add momo (oval.class new))
+(momo setcolor red)
+(space add hello (label.class new \"Hello world\"))
+(momo translate 80 80)
+(hello translate 150 150)
 ```
 
 Cet exercice ne m'a pas posé de problème particulier.
@@ -169,30 +170,14 @@ Pour simplifier les commandes nous avons également mis en place une notation po
 La commande à exécuter dans cet exercice était la suivante :
 
 ```
-(space sleep 1000)
-(space setDim 1000 1000)
-(space sleep 500)
-(space add robi (Rect new))
-(space sleep 500)
-(space.robi setDim 800 800)
-(space sleep 500)
-(space.robi setColor red)
-(space sleep 500)
-(space.robi add robi (Rect new))
-(space sleep 500)
-(space.robi.robi setDim 700 700)
-(space sleep 500)
-(space.robi.robi add img (Image new trex.jpg))
-(space sleep 500)
-(space.robi.robi.img translate 50 50)
-(space sleep 500)
-(space.robi del robi)
-(space sleep 500)
-(space.robi add robi (Oval new))
-(space sleep 500)
-(space.robi.robi setColor yellow)
-(space sleep 500)
-(space.robi.robi setDim 300 300)
+(space add robi (rect.class new))
+(space.robi setdim 300 300)
+(space.robi setcolor yellow)
+(space.robi add momo (oval.class new))
+(space.robi.momo setdim 100 100)
+(space.robi.momo setcolor red)
+(space.robi add image (image.class new vidren.png))
+(space.robi.image translate 200 200)
 ```
 
 La gestion des environnements n'a pas été facile puisqu'il a fallu réfléchir à une manière optimale pour l'ajout de nos éléments. En effet, utiliser un seul environnement était contre productif puisque si ce dernier était supprimé nous perdions tous nos éléments.
