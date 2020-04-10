@@ -152,6 +152,11 @@ Le résultat de l'exercice :
 
 ## Tests finaux
 
+Pour chaque exercice, la classe Main() déclenche un scénario de test. Puis une fois que le scénario est terminée, on récupère la main sur le terminal pour faire des entrées manuelles si on le souhaite.
+Pour le dernier exercice (exercice 4.4) il y a deux classes Main() :
+- Exercice4_4.java : Contenant la fonction MainLoop() classique.
+- Exercice4_4_Tests.java : Contenant la fonction MainTests() qui inclut des 3 scénarios différents et qui fini par nous rendre la main sur le terminal.
+
 ***
 
 ## Bonus
