@@ -54,7 +54,7 @@ Cet exercice ne m'a pas posé de problème particulier.
 
 Le résultat de l'exercice :
 
-![Exécution de l'Exercice 2](/exercice_2.PNG)
+![Exécution de l'Exercice 2](/exercice_2_1.PNG)
 
 ### Exercice 2.2 : Script d’animation
 
