@@ -142,9 +142,18 @@ Cet exercice ne m'a pas posé de problème particulier.
 
 Le résultat de l'exercice :
 
-![Exécution de l'Exercice 3](/exercice_4_1.gif)
+![Exécution de l'Exercice 4.1](/exercice_4_1.gif)
 
 ### Exercice 4.2 : Ajout et suppression dynamique d’éléments graphiques
+
+L'objectif dans cet exercice était d'implémenter les classes AddElement et DelElement qui nous permettent d'ajouter ou de supprimer des éléments dans notre environnement.
+
+Cette partie a requis un certain temps de compréhension, puisqu'il a fallu se plonger plus profondément dans les bibliothèques afin de voir comment chaque classe était gérée (GRect, GOval etc sont des GBounded, donc des GElement).
+
+Le résultat de l'exercice :
+
+![Exécution de l'Exercice 4.2](/exercice_4_2.gif)
+
 ### Exercice 4.3 : Ajouter des éléments à des conteneurs
 ### Exercice 4.4 : Création et exécution de scripts
 
