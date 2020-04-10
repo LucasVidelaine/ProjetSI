@@ -9,7 +9,7 @@ de les animer.
 Le développement se fait en Java sous Eclipse.
 
 ***
-
+## Sommaire : 
 Le projet se constitue d’un ensemble d’exercices de difficulté croissante. Nous avons un total de 5 exercices déclinés, pour certain, en sous exercice :
 
 * [Exercice 1 : Prise en main de la couche graphique](#exercice-1--prise-en-main-de-la-couche-graphique)
