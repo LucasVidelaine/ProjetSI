@@ -33,12 +33,29 @@ La difficulté de l'exercice est la prise en main de l'environnement graphique e
 
 Le déplacement du carré devait pouvoir s'adapter au redimensionnement dynamique de la fenêtre (par l'utilisateur).
 
+Le résultat de l'exercice :
+
 ![Exécution de l'Exercice 1](/exercice_1.gif)
 
 ***
 
 ## Exercice 2 : Première version d’un interpréteur de script
 ### Exercice 2.1 : Script de configuration
+
+Ce deuxième exercice avait pour but d'introduire la notion de script de commande a exécuter.
+Le second exercice a pour objectif de mettre en place l'utilisation de commande, que l'utilisateur peut exécuter pour alimenter sa fenêtre.
+La commande à exécuter dans cet exercice était la suivante :
+
+(script
+	(space color black)
+	(robi color yellow) )
+
+Cet exercice ne m'a pas posé de problème particulier.
+
+Le résultat de l'exercice :
+
+![Exécution de l'Exercice 2](/exercice_2.png)
+
 ### Exercice 2.2 : Script d’animation
 
 ***
