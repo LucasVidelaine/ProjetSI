@@ -80,8 +80,8 @@ La commande à exécuter dans cet exercice était la suivante :
 
 Ce script introduisait les commandes suivantes :
 
-    translate, qui permet de déplacer avec un décalage en x et y passé en argument
-    sleep, qui provoque une mise en sommeil pour un nombre de millisecondes passé en argument
+- translate, qui permet de déplacer avec un décalage en x et y passé en argument
+- sleep, qui provoque une mise en sommeil pour un nombre de millisecondes passé en argument
 
 Cet exercice ne m'a pas posé de problème particulier.
 
