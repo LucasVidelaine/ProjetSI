@@ -80,8 +80,8 @@ La commande à exécuter dans cet exercice était la suivante :
 
 Ce script introduisait les commandes suivantes :
 
-- translate, qui permet de déplacer avec un décalage en x et y passé en argument
-- sleep, qui provoque une mise en sommeil pour un nombre de millisecondes passé en argument
+- Translate : Permet de déplacer un élément sur un axe grâce à des coordonnées X et Y.
+- Sleep : Permet de mettre en sommeil le programme pendant un temps donnée en millisecondes
 
 Cet exercice ne m'a pas posé de problème particulier.
 
@@ -92,6 +92,30 @@ Le résultat de l'exercice :
 ***
 
 ## Exercice 3 : Introduction des commandes
+
+L'objectif de cet exercice était de faire évoluer la structure du programme en créant une classe Command contenant une méthode unqiue run(). Nos autres classes hériteront de cette classe Command tout en redéfinissant la méthode run(). Nous aurons ainsi une classe par commande exécutable.
+
+Cette évolution nous simplifiera grandement la tâche lors de futurs ajouts de commande.
+
+Le script que j'ai exécuté est le suivant :
+```
+(script
+	(space setColor yellow)
+	(robi setColor red)
+	(robi translate 10 0)
+	(space sleep 100)
+	(robi translate 0 10)
+	(space sleep 100)
+	(robi translate -10 0)
+	(space sleep 100)
+	(robi translate 0 -10) )
+```
+
+Cet exercice ne m'a pas posé de problème particulier.
+
+Le résultat de l'exercice :
+
+![Exécution de l'Exercice 3](/exercice_3.gif)
 
 ***
 
