@@ -33,7 +33,7 @@ La difficulté de l'exercice est la prise en main de l'environnement graphique e
 
 Le déplacement du carré devait pouvoir s'adapter au redimensionnement dynamique de la fenêtre (par l'utilisateur).
 
-
+![Exécution de l'Exercice 1](/exercice_1.gif)
 
 ***
 
