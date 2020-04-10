@@ -81,6 +81,34 @@ Le résultat de l'exercice :
 
 ## Bonus
 
+Les images au format GIF n'était pas animé dans notre programme, et pour remédier à cela nous avons créé une nouvelle classe GGif.java au sein du package GraphicLayer et nous avons modifié la classe NewImage.java.
+
+Dans la classe GGif, on implémente ImageObserver permettant de passer cette classe en paramètre de la méthode drawImage de Graphics2D. La méthode imageUpdate de l'interface, une fois redéfinie, nous permet de "repaint" le container à chaque mise à jour de l'image (dépendant du framerate du Gif)
+
+L'instanciation du fichier a également été modifiée dans la classe NewImage. On vérifie le type de fichier image, et dans le cas d'un fichier Gif on procède ainsi :
+
+```
+	URL url = null;
+	File monGif = null;
+	try {
+		monGif = new File(file);
+	}catch(NullPointerException e) {
+		System.out.println("Nom de fichier invalide : " + e);
+	}
+
+	try {
+		url = monGif.toURI().toURL();
+	} catch (MalformedURLException | IllegalArgumentException | SecurityException e ) {
+		System.out.println("Erreur : " + e);
+	}
+	Image image = new ImageIcon(url).getImage();
+	GGif img = new GGif(image);
+```
+
+Le résultat du bonus :
+
+![Exécution du Bonus](/canard_hi.gif)
+
 ***
 
 ## Bilan critique
