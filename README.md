@@ -199,6 +199,28 @@ Le résultat de l'exercice :
 
 ### Exercice 4.4 : Création et exécution de scripts
 
+#### Scripts 
+
+Dans cet exercice, les Références embarquent la possibilité de créer, de supprimer et d'exécuter des scripts.
+
+Afin de mettre en place ces possibilitées, les classes AddScript, DelScript et RunScript ont été ajoutées, un HashMap de scripts a été ajoutée dans la classe Reference et le méthode run a été modifiée.
+
+La méthode AddScript rajoute une commande RunScript, possédant une ExprList en attribut de classe, représentant le script avec ses paramètres.
+
+La méthode DelScript supprime simplement le script du HashMap de script de la Reference. C'est là tout l'intérêt de ce HashMap : cela évite de donner la possibilitée à l'utilisateur de supprimer des commandes primitives.
+
+La méthode RunScript modifie les paramètres par les valeurs saisies par l'utilisateur, puis exécute les expressions une par une.
+
+Enfin, La modification de la méthode run de la classe Reference permet de tenter d'exécuter un script si aucune commande n'a primitive ne correspond au nom de commande saisie par l'utilisateur.
+
+Les principales difficultées rencontrées était la modification des paramètres par les valeurs saisies par l'utilisateur. Nous avons également fait évoluer la classe Environment en y ajoutant des variables "name" et "EnvironmentParent" afin de simplifier l'algorithme de nos classes ainsi que l'usage des environnements.
+
+#### Clear
+
+Nous avons implémenté la commande "clear" permettant de vider un environnement de tous les éléments/références qu'il contient. Pour cela nous avons ajouté une classe Clear.java et ajouté la commande dans nos références.
+
+La difficultée ici était de parcourir le HashMap de l'environnement tout en supprimant les éléments sans provoquer de ConcurrentModificationException. Pour se faire nous utilisons un Itérateur sur notre HashMap.
+
 Le résultat de l'exercice :
 
 ![Exécution de l'Exercice 4.4](/exercice_4_4.gif)
