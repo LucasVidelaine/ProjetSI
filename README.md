@@ -97,7 +97,8 @@ L'objectif de cet exercice était de faire évoluer la structure du programme en
 
 Cette évolution nous simplifiera grandement la tâche lors de futurs ajouts de commande.
 
-Le script que j'ai exécuté est le suivant :
+La commande à exécuter dans cet exercice était la suivante :
+
 ```
 (script
 	(space setColor yellow)
@@ -121,6 +122,30 @@ Le résultat de l'exercice :
 
 ## Exercice 4 : Sélection et exécution des commandes
 ### Exercice 4.1 : Référencement des objets et enregistrement des commandes
+
+Dans cet exercice, la structure du projet c'est encore améliorée avec l'implémentation des classes Reference et Environment.
+
+Ces classes permettent d'ajouter de nouvelles commandes encore plus facilement qu'avant.
+
+En effet, chaque référence possède des commandes et est située dans un environnement, permettant de lui attribuer des commandes facilement.
+
+La commande à exécuter dans cet exercice était la suivante :
+
+```
+(space sleep 1000)
+(robi setColor yellow)
+(space sleep 500)
+(space setColor red)
+(space sleep 500)
+(robi translate 30 30)
+```
+
+Cet exercice ne m'a pas posé de problème particulier.
+
+Le résultat de l'exercice :
+
+![Exécution de l'Exercice 3](/exercice_4_1.gif)
+
 ### Exercice 4.2 : Ajout et suppression dynamique d’éléments graphiques
 ### Exercice 4.3 : Ajouter des éléments à des conteneurs
 ### Exercice 4.4 : Création et exécution de scripts
@@ -166,7 +191,10 @@ Le résultat du bonus :
 ## Bilan critique
 
 Ce projet m'a permis d'apprendre à utiliser des environnemnts 2D et des Frames au travers de nouvelles bibliothèques.
+
 J'ai également appris à développer un semblant de langage objet au sein de Java.
+
 La gestion des erreurs a été d'une grande importance afin que l'ensemble soit fontionnel et flexible.
+
 Enfin j'ai pu m'investir et organiser mon temps afin de travailler de manière efficace sur chaque partie du projet.
 
