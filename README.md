@@ -45,16 +45,16 @@ Le résultat de l'exercice :
 Ce deuxième exercice avait pour but d'introduire la notion de script de commande a exécuter.
 Le second exercice a pour objectif de mettre en place l'utilisation de commande, que l'utilisateur peut exécuter pour alimenter sa fenêtre.
 La commande à exécuter dans cet exercice était la suivante :
-
+```
 (script
 	(space color black)
 	(robi color yellow) )
-
+```
 Cet exercice ne m'a pas posé de problème particulier.
 
 Le résultat de l'exercice :
 
-![Exécution de l'Exercice 2](/exercice_2.png)
+![Exécution de l'Exercice 2](/exercice_2.PNG)
 
 ### Exercice 2.2 : Script d’animation
 
