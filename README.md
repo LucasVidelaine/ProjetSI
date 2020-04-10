@@ -123,11 +123,9 @@ Le résultat de l'exercice :
 ## Exercice 4 : Sélection et exécution des commandes
 ### Exercice 4.1 : Référencement des objets et enregistrement des commandes
 
-Dans cet exercice, la structure du projet c'est encore améliorée avec l'implémentation des classes Reference et Environment.
+L'objectif de cet exercice était de faire évoluer une nouvelle fois la structure globale de notre programme en ajoutant une classe Reference et une classe Environment. Ces deux nouvelles classes ont pour but de simplifer encore plus l'ajout de commandes.
 
-Ces classes permettent d'ajouter de nouvelles commandes encore plus facilement qu'avant.
-
-En effet, chaque référence possède des commandes et est située dans un environnement, permettant de lui attribuer des commandes facilement.
+Lorsque nous ajoutons un element, celui-ci possède une référence liée à des commandes et un environnement.
 
 La commande à exécuter dans cet exercice était la suivante :
 
