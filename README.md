@@ -22,9 +22,9 @@ Le projet se constitue d’un ensemble d’exercices de difficulté croissante. 
   * [Exercice 4.2 : Ajout et suppression dynamique d’éléments graphiques](#exercice-42--ajout-et-suppression-dynamique-déléments-graphiques)
   * [Exercice 4.3 : Ajouter des éléments à des conteneurs](#exercice-43--ajouter-des-éléments-à-des-conteneurs)
   * [Exercice 4.4 : Création et exécution de scripts](#exercice-44--création-et-exécution-de-scripts)
-* [Tests finaux]()
-* [Bonus]()
-* [Bilan critique]()
+* [Tests finaux](#tests-finaux)
+* [Bonus](#bonus)
+* [Bilan critique](#bilan-critique)
   
 ***
 
