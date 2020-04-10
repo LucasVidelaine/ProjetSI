@@ -130,13 +130,12 @@ Lorsque nous ajoutons un element, celui-ci possède une référence liée à des
 La commande à exécuter dans cet exercice était la suivante :
 
 ```
-(space add robi (rect.class new)) 
-(robi setcolor yellow)
-(space add momo (oval.class new))
-(momo setcolor red)
-(space add hello (label.class new \"Hello world\"))
-(momo translate 80 80)
-(hello translate 150 150)
+(space sleep 1000)
+(robi setColor yellow)
+(space sleep 500)
+(space setColor red)
+(space sleep 500)
+(robi translate 30 30)
 ```
 
 Cet exercice ne m'a pas posé de problème particulier.
@@ -150,6 +149,18 @@ Le résultat de l'exercice :
 L'objectif dans cet exercice était d'implémenter les classes AddElement et DelElement qui nous permettent d'ajouter ou de supprimer des éléments dans notre environnement.
 
 Cette partie a requis un certain temps de compréhension, puisqu'il a fallu se plonger plus profondément dans les bibliothèques afin de voir comment chaque classe était gérée (GRect, GOval etc sont des GBounded, donc des GElement).
+
+La commande à exécuter dans cet exercice était la suivante :
+
+```
+(space add robi (rect.class new)) 
+(robi setcolor yellow)
+(space add momo (oval.class new))
+(momo setcolor red)
+(space add hello (label.class new \"Hello world\"))
+(momo translate 80 80)
+(hello translate 150 150)
+```
 
 Le résultat de l'exercice :
 
