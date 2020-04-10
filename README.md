@@ -57,9 +57,37 @@ Cet exercice ne m'a pas posé de problème particulier.
 
 Le résultat de l'exercice :
 
-![Exécution de l'Exercice 2](/exercice_2_1.PNG)
+![Exécution de l'Exercice 2-1](/exercice_2_1.PNG)
 
 ### Exercice 2.2 : Script d’animation
+
+Dans la seconde partie de l'exercice, la commande à exécuter a évoluée afin de permettre une animation.
+
+La commande à exécuter dans cet exercice était la suivante :
+
+```
+(script
+	(space color white)
+	(robi color red)
+	(robi translate 10 0)
+	(space sleep 100)
+	(robi translate 0 10)
+	(space sleep 100)
+	(robi translate -10 0)
+	(space sleep 100)
+	(robi translate 0 -10) )
+```
+
+Ce script introduisait les commandes suivantes :
+
+    translate, qui permet de déplacer avec un décalage en x et y passé en argument
+    sleep, qui provoque une mise en sommeil pour un nombre de millisecondes passé en argument
+
+Cet exercice ne m'a pas posé de problème particulier.
+
+Le résultat de l'exercice :
+
+![Exécution de l'Exercice 2-2](/exercice_2_2.gif)
 
 ***
 
@@ -113,4 +141,8 @@ Le résultat du bonus :
 
 ## Bilan critique
 
+Ce projet m'a permis d'apprendre à utiliser des environnemnts 2D et des Frames au travers de nouvelles bibliothèques.
+J'ai également appris à développer un semblant de langage objet au sein de Java.
+La gestion des erreurs a été d'une grande importance afin que l'ensemble soit fontionnel et flexible.
+Enfin j'ai pu m'investir et organiser mon temps afin de travailler de manière efficace sur chaque partie du projet.
 
