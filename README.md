@@ -27,6 +27,14 @@ Le projet se constitue d’un ensemble d’exercices de difficulté croissante. 
 
 ## Exercice 1 : Prise en main de la couche graphique
 
+L'objectif de cet exercice était de programmer le déplacement de carré au sein d'une fenêtre, tout en le faisant changer de couleur de manière aléatoire.
+
+La difficulté de l'exercice est la prise en main de l'environnement graphique et des classes existantes. Il faut un peu de temps pour découvrir les méthodes que nous avons à disposition.
+
+Le déplacement du carré devait pouvoir s'adapter au redimensionnement dynamique de la fenêtre (par l'utilisateur).
+
+
+
 ***
 
 ## Exercice 2 : Première version d’un interpréteur de script
