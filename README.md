@@ -155,6 +155,52 @@ Le résultat de l'exercice :
 ![Exécution de l'Exercice 4.2](/exercice_4_2.gif)
 
 ### Exercice 4.3 : Ajouter des éléments à des conteneurs
+
+L'objectif de cette exercice était de pouvoir ajouter des éléments au sein de rectangle. 
+
+La solution choisie pour mettre en place cette possibilité est l'ajout d'un environnement dans la référence de l'élément parent afin de contenir les éléments enfant.
+
+Lors de la création d'un élément on instancie un nouvel environnement "enfant".
+
+Désormais, la référence space est contenu dans un environnement, permettant de l'appeler et contient elle-même un environnement permettant d'y disposer les éléments.
+
+Pour simplifier les commandes nous avons également mis en place une notation pointée.
+
+La commande à exécuter dans cet exercice était la suivante :
+
+```
+(space sleep 1000)
+(space setDim 1000 1000)
+(space sleep 500)
+(space add robi (Rect new))
+(space sleep 500)
+(space.robi setDim 800 800)
+(space sleep 500)
+(space.robi setColor red)
+(space sleep 500)
+(space.robi add robi (Rect new))
+(space sleep 500)
+(space.robi.robi setDim 700 700)
+(space sleep 500)
+(space.robi.robi add img (Image new trex.jpg))
+(space sleep 500)
+(space.robi.robi.img translate 50 50)
+(space sleep 500)
+(space.robi del robi)
+(space sleep 500)
+(space.robi add robi (Oval new))
+(space sleep 500)
+(space.robi.robi setColor yellow)
+(space sleep 500)
+(space.robi.robi setDim 300 300)
+```
+
+La gestion des environnements n'a pas été facile puisqu'il a fallu réfléchir à une manière optimale pour l'ajout de nos éléments. En effet, utiliser un seul environnement était contre productif puisque si ce dernier était supprimé nous perdions tous nos éléments.
+
+Le résultat de l'exercice :
+
+![Exécution de l'Exercice 4.3](/exercice_4_3.gif)
+
 ### Exercice 4.4 : Création et exécution de scripts
 
 ***
