@@ -199,6 +199,14 @@ Le résultat de l'exercice :
 
 ### Exercice 4.4 : Création et exécution de scripts
 
+Le résultat de l'exercice :
+
+![Exécution de l'Exercice 4.4](/exercice_4_4.gif)
+
+Démonstration finale de ce qui est possible de faire avec notre programme :
+
+![Exécution de la démo](/demo.gif)
+
 ***
 
 ## Tests finaux
